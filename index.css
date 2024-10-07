@@ -1,13 +1,30 @@
+@font-face{
+    font-family: myFont;
+    src:url(CursedTimerUlil-Aznm.ttf)
+}
+
 body {
+    font-family: monospace;
+    font-size: 50px;
+    color: whitesmoke;
     margin: 0;
     text-align: center;
-    background-color: blue;
+    background-color: rgb(13, 14, 16);
+}
+
+h2{
+    border: 5px solid whitesmoke;
+    text-align: center;
+    margin: auto;
+    border-radius: 2px;
 }
 
 .score {
+    padding: 20px 20px;
+    font-family: myFont;
     background: #0a0001;
     font-size: 90px;
-    color: #F94F6D;
+    color: #e6dbdd;
     width: 120px;
     margin: 20px;
 }
@@ -18,6 +35,8 @@ body {
 }
 
 button {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
     background: none;
 }
 
