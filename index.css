@@ -1,7 +1,7 @@
-@font-face{
+/*@font-face{
     font-family: myFont;
     src:url(font.ttf)
-}
+}*/
 
 body {
     font-family: monospace;
@@ -21,7 +21,7 @@ h2{
 
 .score {
     padding: 20px 20px;
-    font-family: myFont;
+    /*font-family: myFont;*/
     background: #0a0001;
     font-size: 90px;
     color: #e6dbdd;
